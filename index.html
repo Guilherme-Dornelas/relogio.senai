@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideshow</title>
+    <link rel="stylesheet" href="estilo.css/estilo.css">
+    <script src="https://kit.fontawesome.com/190633336d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <header>
+            <h1>slideshow com javaScript</h1>
+        </header>
+
+        <div class="slideshow-conteiner">
+
+            <div class="myslider fade">
+                <div class="numbertext"> 1/5</div>
+                <img src="assets/au-land-001.webp" style="width: 100%;" alt="foto">
+                <div class="text"> 12 Apostiles Australis</div>
+            </div>
+            <div class="myslider fade">
+                <div class="numbertext"> 2/5</div>
+                <img src="assets/au-land-002.webp" style="width: 100%;" alt="foto">
+                <div class="text"> circular quay, sidyna australia</div>
+            </div>
+            <div class="myslider fade">
+                <div class="numbertext"> 3/5</div>
+                <img src="assets/au-land-003.webp" style="width: 100%;" alt="foto">
+                <div class="text"> 12 Apostiles Australis</div>
+            </div>
+            <div class="myslider fade">
+                <div class="numbertext"> 4/5</div>
+                <img src="assets/au-land-004.webp" style="width: 100%;" alt="foto">
+                <div class="text"> 12 Apostiles Australis</div>
+            </div>
+            <div class="myslider fade">
+                <div class="numbertext"> 5/5</div>
+                <img src="assets/au-land-005.webp" style="width: 100%;" alt="foto">
+                <div class="text"> 12 Apostiles Australis</div>
+            </div>
+            <a class="prev" onclick="plusSlider(-1)"><i class="fa-solid fa-chevron-left fa-2xl"></i></a>
+            <a class="next" onclick="plusSlider(1)"><i class="fa-solid fa-chevron-right fa-2xl"></i></a>
+
+            <div class="indicators">
+                <span class="dot" onclick="currentslides(1)"></span>
+                <span class="dot" onclick="currentslides(2)"></span>
+                <span class="dot" onclick="currentslides(3)"></span>
+                <span class="dot" onclick="currentslides(4)"></span>
+                <span class="dot" onclick="currentslides(5)"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/scrispt.js"></script>
+</body>
+
+</html>
